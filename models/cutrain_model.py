@@ -6,7 +6,7 @@ from .patchnce import PatchNCELoss
 import util.util as util
 
 
-class CUTModel(BaseModel):
+class CUTRAINModel(BaseModel):
     """ This class implements CUT and FastCUT model, described in the paper
     Contrastive Learning for Unpaired Image-to-Image Translation
     Taesung Park, Alexei A. Efros, Richard Zhang, Jun-Yan Zhu
